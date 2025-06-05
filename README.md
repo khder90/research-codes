@@ -310,7 +310,7 @@ plt.show()
 
 from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, r2_score
 
-# التنبؤ
+
 y_train_pred = model.predict(X_train_cnn)
 y_val_pred = model.predict(X_val_cnn)
 y_test_pred = model.predict(X_test_cnn)
